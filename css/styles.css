@@ -5,11 +5,11 @@ body {
     background-color: #FFFFFF;
 }
 
-.container { 
-    max-width: 1158px;
-    padding: 0 15; 
-    margin: 0 auto;
-    }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 
 h1, h2, h3, h4, h5, h6, p {
 margin: 0;
@@ -128,8 +128,19 @@ address {
 
 /* main */
 
-.sections {
+.container { 
+    max-width: 1158px;
+    padding: 0 15; 
+    margin: 0 auto;
+}
+
+.section-main {
     background: #2e2f42;
+}
+
+.main-title-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-title {
@@ -138,16 +149,20 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    width: 496px;
+    margin: 0 auto;
     color: #fff;
 }
 
 .button-order {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    margin: 0 auto;
     background-color: #4d5ae5;
 }
 
