@@ -39,6 +39,40 @@ footer .logo {
     color: #f4f4fd;
 }
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-item {
+    display: block;
+}
+
 .nav {
     font-weight: 500;
     font-size: 16px;
@@ -60,11 +94,23 @@ header .nav:active {
     text-decoration: underline;
 }
 
-.address {
-    font-style: normal;
+address {
+    display: block;
+    unicode-bidi: isolate;
 }
 
-.address-a {
+.contacts {
+    font-style: normal;
+    margin-left: 332px;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts-item {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
