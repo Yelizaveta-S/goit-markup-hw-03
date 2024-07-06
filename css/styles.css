@@ -71,8 +71,8 @@ header {
 }
 
 .nav-item {
-    display: block;
     padding: 24px 0;
+    display: block;
 }
 
 .nav {
@@ -138,9 +138,6 @@ address {
 
 .section-main {
     background: #2e2f42;
-}
-
-.main-title-container {
     padding: 188px 0;
 }
 
